@@ -5,5 +5,5 @@ from models.endereco import Endereco
 
 os.system ("cls||clear")
 
-pessoa_1= Pessoa("Pedro",15,Sexo.FEMININO,Endereco("Rua A","Caetano",57))
+pessoa_1= Pessoa("Pedro",15,Sexo.MASCULINO,Endereco("Rua A","Caetano",57))
 print(pessoa_1)
